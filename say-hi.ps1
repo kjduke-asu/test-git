@@ -1,1 +1,3 @@
-Write-Host "Hello World"
+$username = $env:UserName
+
+Write-Host "Hello $username"
